@@ -1,0 +1,18 @@
+:root {
+  --width-mobile: 375px;
+  --width-desktop: 1440px;
+  --fondo-primario: hsl(31, 77%, 52%);
+  --fondo-secundario: hsl(184, 100%, 22%);
+  --fondo-terciario: hsl(179, 100%, 13%);
+  --letra-transparente: hsla(0, 0%, 100%, 0.75);
+  --fondo-transparente: hsl(0, 0%, 95%);
+
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--letra-transparente);
+  line-height: 2;
+
+}
+
+h1 {
+  font-family: +'Big Shoulders Display', serif;
+}

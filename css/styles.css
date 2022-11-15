@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Karla:wght@400;700&family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+.my-body {
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    padding: 1.5rem;
+    font: size 11px;
+    background-color: tomato;
+
+}
+
+
+
+.imagen-icono {
+    width: initial;
+}
+
+.container {
+
+    max-width: var(--width-desktop);
+    min-width: var(--width-mobile);
+    background-color: blue;
+    border-radius: .3rem;
+
+    /* gap: 2rem; */
+}
+
+.card {
+
+    padding: 3rem;
+
+}
+
+
+
+.card-sedans {
+    background-color: var(--fondo-primario);
+    border-radius: .3rem .3rem 0rem 0rem;
+
+}
+
+.card-suvs {
+    background-color: var(--fondo-secundario);
+
+}
+
+.card-luxury {
+    background-color: var(--fondo-terciario);
+    border-radius: 0rem 0rem .3rem .3rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: .5rem;
+    background-color: var(--fondo-transparente);
+    padding: .3rem 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+    transition: background-color 1s;
+
+}
+
+.btn:hover {
+    transition: background-color 1s;
+    background-color: var(--color-transparente);
+    color: var(--fondo-transparente);
+
+    /*La diferencia entre outline y border es que border ocupa*/
+    outline: solid var(--fondo-transparente);
+    
+    outline-width: .2rem;
+
+
+}
+
+.btn-primary {
+
+    color: var(--fondo-primario);
+}
+
+.btn-secundary {
+
+    color: var(--fondo-secundario);
+}
+
+.btn-terciary {
+
+    color: var(--fondo-terciario);
+
+}
+
+@media (min-width: 600px) {
+
+    
+    .container {
+        display: flex;
+        max-width: var(--width-desktop);
+        margin: auto;
+        
+       
+    }
+.card-sedans{
+    border-radius: .3rem 0rem 0rem .3rem;
+}
+
+.card-luxury{
+    border-radius: 0rem .3rem .3rem 0rem;
+}
+
+}
